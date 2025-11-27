@@ -29,7 +29,7 @@ import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-cop
 export default defineConfig({
 	output: 'server',
 	adapter: zeabur(),
-	site: "https://liuyu.zeabur.app/",
+	//site: "https://liuyu.zeabur.app/",
 	base: "/",
 	trailingSlash: "always",
 	integrations: [
