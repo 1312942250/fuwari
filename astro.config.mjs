@@ -29,6 +29,12 @@ import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-cop
 export default defineConfig({
 	output: 'server',
 	adapter: zeabur(),
+	image: {
+		service: {
+			// 禁用sharp，使用内置的兼容性服务
+			entrypoint: 'astro/assets/services/noop',
+		},
+	},
 	//site: "https://liuyu.zeabur.app/",
 	base: "/",
 	trailingSlash: "always",
