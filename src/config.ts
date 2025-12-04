@@ -49,25 +49,25 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "https://pic1.imgdb.cn/item/5f056f5d14195aa594fb7231.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "丁真",
-	bio: "我只抽瑞克五代",
+	name: "琳宇",
+	bio: "记录学习、生活",
 	links: [
+		// {
+		// 	name: "Twitter",
+		// 	icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
+		// 	// You will need to install the corresponding icon set if it's not already included
+		// 	// `pnpm add @iconify-json/<icon-set-name>`
+		// 	url: "https://twitter.com",
+		// },
 		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
-			// You will need to install the corresponding icon set if it's not already included
-			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://twitter.com",
+			name: "网易云音乐",
+			icon: "ri:netease-cloud-music-fill",
+			url: "https://music.163.com/#/user/home?id=8045078252",
 		},
 		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
-		},
-		{
-			name: "GitHub",
-			icon: "fa6-brands:github",
-			url: "https://github.com/saicaca/fuwari",
+			name: "小红书",
+			icon: "arcticons:rednote-alt-2",
+			url: "https://www.xiaohongshu.com/user/profile/66a1ec33000000000d0279cd",
 		}
 	],
 };
