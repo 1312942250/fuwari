@@ -11,6 +11,17 @@ lang: ''
 
 > 参考[官方文档](https://minio.org.cn/docs/minio/linux/reference/minio-mc/mc-mirror.html)
 
+## 下载
+
+```sh
+# 下载mc客户端
+wget https://dl.min.io/client/mc/release/linux-amd64/mc
+# 赋予权限
+chmod +x mc
+# 迁移到/usr目录
+sudo mv mc /usr/local/bin/
+```
+
 ## 命令介绍
 
 1、`mc mirror`用来同步当前服务器的minio数据到远程服务器。
