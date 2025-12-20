@@ -1,10 +1,10 @@
 ---
 title: Minio客户端mc mrrior用法
 published: 2025-12-04
-description: 介绍Minio客户端mc mrrior在Linux中的使用，包括安装、配置、编写脚本。
+description: '介绍Minio客户端mc mrrior在Linux中的使用，包括安装、配置、编写脚本。'
 image: ''
-tags: ['Linux']
-category: '编程'
+tags: ['计算机']
+category: '学习'
 draft: false 
 lang: ''
 ---
